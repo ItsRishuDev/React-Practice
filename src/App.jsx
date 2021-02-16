@@ -8,9 +8,10 @@ import React from 'react'
 // import Clock from './Clock'
 // import Form from './Form'
 // import MultiForm from './MultiForm'
-import Todo from './Todo'
+// import Todo from './Todo'
 // import IncDec from './IncDec'
 // import Problem1 from './Problem1'
+import Pokemon from './Pokemon'
 
 function App(){
     // For Greeting App 
@@ -57,8 +58,11 @@ function App(){
     // <MultiForm/>
     
     // Todo App 
+    //  <Todo/>
+    
+    // Pokemon
     return (<>
-         <Todo/>
+        <Pokemon/>
     </>);
 }
 
