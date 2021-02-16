@@ -7,7 +7,10 @@ import React from 'react'
 // import Time from './Time'
 // import Clock from './Clock'
 // import Form from './Form'
-import MultiForm from './MultiForm'
+// import MultiForm from './MultiForm'
+import Todo from './Todo'
+// import IncDec from './IncDec'
+// import Problem1 from './Problem1'
 
 function App(){
     // For Greeting App 
@@ -51,8 +54,11 @@ function App(){
     // <Form/>
     
     // Form using three dot (spread) 
+    // <MultiForm/>
+    
+    // Todo App 
     return (<>
-        <MultiForm/>
+         <Todo/>
     </>);
 }
 
